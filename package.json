@@ -1,0 +1,37 @@
+{
+  "name": "autofi-challenge",
+  "version": "1.0.0",
+  "description": "api to parse csv files",
+  "main": "server.js",
+  "scripts": {
+    "test": "npm test",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/diegodubon/autofi-challenge.git"
+  },
+  "author": "diegodubon47@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/diegodubon/autofi-challenge/issues"
+  },
+  "homepage": "https://github.com/diegodubon/autofi-challenge#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "eslint": "^6.1.0",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-config-node": "^4.0.0",
+    "eslint-config-prettier": "^6.4.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-node": "^10.0.0",
+    "eslint-plugin-prettier": "^3.1.1",
+    "eslint-plugin-react": "^7.14.3",
+    "eslint-plugin-react-hooks": "^1.7.0",
+    "mongodb-memory-server": "^5.2.8",
+    "prettier": "^1.18.2"
+  }
+}
