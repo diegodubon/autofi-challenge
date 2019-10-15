@@ -5,7 +5,8 @@
   "main": "server.js",
   "scripts": {
     "test": "npm test",
-    "start": "node server.js"
+    "start": "node server.js",
+    "dev": "nodemon server.js"
   },
   "repository": {
     "type": "git",
@@ -18,9 +19,16 @@
   },
   "homepage": "https://github.com/diegodubon/autofi-challenge#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "body-parser": "^1.19.0",
+    "csvtojson": "^2.0.10",
+    "express": "^4.17.1",
+    "fast-csv": "^3.4.0",
+    "log4js": "^5.2.2",
+    "morgan": "^1.9.1",
+    "multer": "^1.4.2"
   },
   "devDependencies": {
+    "dotenv": "^8.1.0",
     "eslint": "^6.1.0",
     "eslint-config-airbnb": "^18.0.1",
     "eslint-config-node": "^4.0.0",
@@ -32,6 +40,7 @@
     "eslint-plugin-react": "^7.14.3",
     "eslint-plugin-react-hooks": "^1.7.0",
     "mongodb-memory-server": "^5.2.8",
+    "nodemon": "^1.19.3",
     "prettier": "^1.18.2"
   }
 }
