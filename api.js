@@ -93,7 +93,6 @@ router.post("/uploadCsv", upload.single("file"), async (req, res) => {
 });
 
 
-//get and query uploaded data
 router.get("/", async (req, res) => {
 
     const { provider } = req.query;
