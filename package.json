@@ -19,9 +19,9 @@
   },
   "homepage": "https://github.com/diegodubon/autofi-challenge#readme",
   "dependencies": {
-    "body-parser": "^1.19.0",
+    "body-parser": "^1.20.1",
     "csvtojson": "^2.0.10",
-    "express": "^4.17.1",
+    "express": "^4.18.2",
     "fast-csv": "^3.4.0",
     "lodash": "^4.17.19",
     "log4js": "^5.2.2",
